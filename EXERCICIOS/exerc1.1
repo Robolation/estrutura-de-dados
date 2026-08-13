@@ -1,0 +1,17 @@
+class Aluno:
+    def __init__(self, nome, frequencia, medgeral):
+        self.nome = nome 
+        self.frequencia = frequencia 
+        self.mediageral = medgeral 
+
+    def mostrar_info(self):
+        print(self.nome)
+        print(self.frequencia)
+        print(self.mediageral)
+
+Joao = Aluno( "Joao:",  "FREQUENCIA-76", "MÉDIA-7.8" )
+Joao.mostrar_info()
+
+
+Maria = Aluno( "Maria:", "FREQUENCIA-80", "MÉDIA-8.5" )
+Maria.mostrar_info()
